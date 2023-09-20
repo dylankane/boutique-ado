@@ -33,7 +33,7 @@ DEBUG = os.environ.get('DEBUG', False)
 ALLOWED_HOSTS = ['8000-dylankane-boutiqueado-ktstnt5zbjs.ws-eu104.gitpod.io']
 
 
-# Application definitio
+# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -73,8 +73,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
-            os.path.join(BASE_DIR, 'templates' 'allauth'),
-
+            os.path.join(BASE_DIR, 'templates', 'allauth'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
